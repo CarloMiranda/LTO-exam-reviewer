@@ -1,0 +1,109 @@
+@import "bootstrap/dist/css/bootstrap.css";
+
+.home {
+  display: grid;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("../LTO-bg.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.final-results,
+.question-card {
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 80%;
+  height: auto;
+
+  /* Visual  */
+  background: linear-gradient(
+    306deg,
+    rgba(0, 56, 240, 0.699) 13%,
+    rgba(55, 130, 222, 1) 29%,
+    rgba(60, 168, 176, 1) 46%,
+    rgba(37, 184, 135, 1) 68%,
+    rgba(91, 201, 94, 1) 84%,
+    rgba(34, 230, 0, 1) 96%
+  );
+  background-blend-mode: lighten;
+  padding: 20px;
+  border-radius: 16px 50px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 10px;
+  background-color: rgba(247, 247, 247, 0.247);
+  padding: 16px;
+  border-radius: 20px 20px 0;
+  box-shadow: 6px 7px 16px -6px rgba(0, 0, 0, 0.47);
+  font-size: 20px;
+  
+}
+
+li:hover {
+  box-shadow: inset 6px 7px 16px -6px rgba(0, 0, 0, 0.47);
+  cursor: pointer;
+}
+
+.question-text {
+  color: darkblue;
+  font-size: 24px;
+}
+
+/* Final Results  */
+
+.final-results {
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 50%;
+  height: auto;
+  margin-top: 64px;
+
+  /* Visual  */
+  background-color: gray;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+
+  border-radius: 24px;
+}
